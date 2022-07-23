@@ -21,12 +21,12 @@ function Projects() {
             transition: 'color 0.2s',
             "&:hover": {
                 color: theme.secondary, 
-                backgroundColor: theme.primary,
+                backgroundColor: theme.light,
             }
         },
         viewArr : {
             color: theme.tertiary, 
-            backgroundColor: theme.secondary70,
+            backgroundColor: theme.light,
             width: '40px',
             height: '40px',
             padding: '0.5rem',
@@ -36,7 +36,7 @@ function Projects() {
             transition: 'background-color 0.2s',
             "&:hover": {
                 color: theme.tertiary, 
-                backgroundColor: theme.secondary,
+                backgroundColor: theme.light,
             }
         },
     }));
@@ -48,7 +48,7 @@ function Projects() {
             {projectsData.length > 0 && (
                 <div className="projects" id="projects" style={{backgroundColor: theme.secondary}}>
                     <div className="projects--header">
-                        <h1 style={{color: theme.primary}}>Projects</h1>
+                        <h1 style={{color: theme.light}}>Projects</h1>
                     </div>
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
